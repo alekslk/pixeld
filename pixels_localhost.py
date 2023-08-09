@@ -78,6 +78,8 @@ if file_path:
     os.remove(temp_image_path)
 
     print(f"PDF saved to {output_path_pdf}")
+    for line in text_info:
+        print(line)
 
 else:
     print("File was not selected.")
